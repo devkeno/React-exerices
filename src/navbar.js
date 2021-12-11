@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
             <h1>Welcome to Blog</h1>
                 <div className="links">
                     <Link to="/">Home</Link>
-                    <Link to="/create">New Blog</Link>
+                    <Link to ="/create">New Blog</Link>
                     <button onClick={handleClick}>Klikni me</button>
                     <button onClick={()=>{mojklik("Kenan")}}>Moj Klik</button>
                 </div>
@@ -15,4 +15,4 @@ import { Link } from "react-router-dom";
      );
 }
  
-export default Navbar;
+export default Navbar;  
